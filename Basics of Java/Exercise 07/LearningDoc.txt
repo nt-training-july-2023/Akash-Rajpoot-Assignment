@@ -1,0 +1,26 @@
+Difference betweeen String and StringBuilder
+
+1. Mutability :- A String is immutable in Java, while a StringBuilder is mutable in Java. 
+An immutable object is an object whose content cannot be changed after it is created.
+When we try to concatenate two Java strings, a new String object is created in the string pool.
+This can be demonstrated by comparing HashCode for String object after every concat operation.  
+
+
+The StringBuilder in Java is used for storing the mutable (changeable) sequence which means we
+ can update the elements of the StringBuilder class without creating a new StringBuilder sequence in memory.
+
+
+ 2. Performance :- StringBuilder is speedy and consumes less memory than a string 
+ while performing concatenations. This is because string is immutable in Java, and 
+ concatenation of two string objects involves creating a new object.
+
+ 3. Equality :- We can use the equals() method for comparing two strings in Java 
+ since the String class overrides the equals() method of the Object class, while 
+ StringBuilder doesn’t override the equals() method of the Object class and 
+ hence equals() method cannot be used to compare two StringBuilder object
+
+
+ When to use string and StringBuilder?
+A String can be used when immutability is required, or concatenation operation is not required. 
+A StringBuilder can be used when a mutable string is needed without the performance 
+overhead of constructing lots of strings along the way.

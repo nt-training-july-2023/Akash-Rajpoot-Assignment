@@ -1,0 +1,43 @@
+1. Simple :- 
+Java was designed to be easy for a professional programmer to learn and use effectively.
+It’s simple and easy to learn if you already know the basic concepts of Object Oriented Programming.
+Java has removed many complicated and rarely-used features, for example, explicit pointers, operator overloading, etc.
+
+2.Secure :-
+Java provides a “firewall” between a networked application and your computer.
+When a Java Compatible Web browser is used, downloading can be done safely without fear of viral infection or malicious intent.
+Java achieves this protection by confining a Java program to the Java execution environment and not allowing it to access other parts of the computer.
+
+
+3.Portable :- 
+Java Provides a way to download programs dynamically to all the various types of platforms connected to the Internet.
+Java is portable because of the Java Virtual Machine (JVM). The JVM is an abstract computing machine that provides a 
+runtime environment for Java programs to execute. The JVM provides a consistent environment for Java programs to run on, 
+regardless of the underlying hardware and operating system. This means that a Java program can be written on one device and
+ run on any other device with a JVM installed, without any changes or modifications.
+
+ 4.Robust :-
+ It provides many features that make the program execute reliably in a variety of environments.
+Java is a strictly typed language. It checks code both at compile time and runtime.
+Java takes care of all memory management problems with garbage collection.
+Java, with the help of exception handling, captures all types of serious errors and eliminates any risk of crashing the system.
+
+5.Architecural Neutral :- 
+Java language and Java Virtual Machine helped in achieving the goal of “write once; run anywhere, any time, forever.”
+Changes and upgrades in operating systems, processors and system resources will not force any changes in Java Programs.
+
+6.High Performance :- 
+Java performance is high because of the use of bytecode.
+The bytecode was used so that it can be easily translated into native machine code.
+
+7.Distributed :- 
+Java is designed to create distributed applications on networks.
+Java applications can access remote objects on the Internet as easily as they can do in the local system.
+Java enables multiple programmers at multiple remote locations to collaborate and work together on a single project.
+Java is designed for the distributed environment of the Internet because it handles TCP/IP protocols.
+
+
+8.Dynamic :-Java is capable of linking in new class libraries, methods, and objects.
+Java programs carry with them substantial amounts of run-time type information that 
+is used to verify and resolve accesses to objects at runtime. This makes it possible to
+ dynamically link code in a safe and expedient manner.

@@ -1,0 +1,12 @@
+1. When we try to save class with differ name from the java file name  : Following error is thrown 
+
+firstProgram.java:1: error: class firstProgramm is public, should be declared in a file named firstProgramm.java
+public class firstProgramm{
+       ^
+1 error
+
+2. When we try to remove the static keyword from main method following error is thrown thrown : 
+Error: Main method is not static in class firstProgram, please define the main method as:
+public static void main(String[] args)
+
+

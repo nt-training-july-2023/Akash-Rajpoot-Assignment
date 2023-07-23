@@ -1,0 +1,5 @@
+when trying to use a float literal for integer data type following error occurs
+FloattoInteger.java:4: error: incompatible types: possible lossy conversion from double to int
+        int a = 10.2;
+                ^
+1 error
